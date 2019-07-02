@@ -1,0 +1,55 @@
+{
+  "pages": [
+    
+    "pages/index1/index1",
+    "pages/index4/index4",
+    "pages/index6/index6",
+    "pages/zhoubang/zhoubang",
+    "pages/2018/2018",
+    "pages/hydy/hydy",
+    
+    
+    
+    
+    "pages/index61/index61",
+    
+    "pages/index5/index5",
+    "pages/index10/index10",
+    "pages/index9/index9",
+    "pages/index8/index8",
+    "pages/index2/index2",
+    "pages/index3/index3",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2ed573",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#2ed573",
+    "list": [
+      {
+        "pagePath": "pages/index1/index1",
+        "iconPath": "image/sou.png",
+        "selectedIconPath": "image/sou1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index4/index4",
+        "iconPath": "image/shi.png",
+        "selectedIconPath": "image/shi1.png",
+        "text": "榜单"
+      },
+      {
+        "pagePath": "pages/index5/index5",
+        "iconPath": "image/wo.png",
+        "selectedIconPath": "image/wo1.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

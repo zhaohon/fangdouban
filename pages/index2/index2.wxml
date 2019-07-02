@@ -1,0 +1,12 @@
+<view class="kuang">
+    <view class="item" wx:for="{{list}}" wx:key="{{index}}">
+       <navigator url="../index8/index8?url={{dizhi}}&id={{item.id}}&index={{index}}">
+                    <image src="{{item.images.medium}}"></image>
+                    <text>{{item.title}}</text>
+                     <view class="xin">
+                        <van-rate size="8" readonly value="{{ item.rating.average/1.5 }}" bind:change="onChange" />
+                        <text class="fen">{{item.rating.average}}</text>
+                    </view>
+                </navigator>
+    </view>
+</view>

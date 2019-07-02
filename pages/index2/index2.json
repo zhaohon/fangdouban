@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-rate": "../../dist/rate/index"
+  },
+  "navigationBarTitleText":"影院热映",
+  "navigationBarBackgroundColor": "##ffffff"
+  
+}

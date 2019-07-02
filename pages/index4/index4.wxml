@@ -1,0 +1,61 @@
+<view class="kuang">
+    <view class="shang">
+        <navigator url="../2018/2018">
+        <view class="s1">
+            <image src="../../image/1.jpg" mode="widthFix" />
+        </view>
+         </navigator>
+        <navigator url="../zhoubang/zhoubang?url=https://douban.uieee.com/v2/movie/weekly">
+            <view class="s1">
+                <image src="../../image/2.jpg" mode="widthFix" />
+            </view>
+        </navigator>
+        <view class="s1">
+            <image src="../../image/3.jpg" mode="widthFix" />
+        </view>
+    </view>
+    <navigator url="../index6/index6?url=https://douban.uieee.com/v2/movie/top250">
+        <view class="xia">
+            <image src="../../image/top250.png" />
+            <view class="you">
+                <view wx:for="{{list}}" wx:if="{{index<=2}}" wx:key="{{index}}">
+                    <view>{{index+1}}.{{item.title}}</view>
+                    <text>{{item.rating.average}}分</text>
+                </view>
+            </view>
+        </view>
+    </navigator>
+    <navigator url="../index61/index61?url=https://douban.uieee.com/v2/movie/us_box?apikey=0df993c66c0c636e29ecbb5344252a4a">
+        <view class="xia">
+            <image src="../../image/22.jpg" />
+            <view class="you">
+                <view wx:for="{{listxp}}" wx:if="{{index<=2}}" wx:key="{{index}}">
+                    <view>{{index+1}}.{{item.title}}</view>
+                    <text>{{item.rating.average}}分</text>
+                </view>
+            </view>
+        </view>
+    </navigator>
+    <navigator url="../index61/index61?url=https://douban.uieee.com/v2/movie/weekly?apikey=0df993c66c0c636e29ecbb5344252a4a">
+        <view class="xia">
+            <image src="../../image/33.jpg" />
+            <view class="you">
+                <view wx:for="{{listbm}}" wx:if="{{index<=2}}" wx:key="{{index}}">
+                    <view>{{index+1}}.{{item.subject.title}}</view>
+                    <text>{{item.subject.rating.average}}分</text>
+                </view>
+            </view>
+        </view>
+    </navigator>
+    <navigator url="../index6/index6?url=https://douban.uieee.com/v2/movie/new_movies?apikey=0df993c66c0c636e29ecbb5344252a4a">
+        <view class="xia">
+            <image src="../../image/33.jpg" />
+            <view class="you">
+                <view wx:for="{{listzb}}" wx:if="{{index<=2}}" wx:key="{{index}}">
+                    <view>{{index+1}}.{{item.subject.title}}</view>
+                    <text>{{item.subject.rating.average}}分</text>
+                </view>
+            </view>
+        </view>
+    </navigator>
+</view>

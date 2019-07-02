@@ -1,0 +1,588 @@
+page {
+    background-color: #b8b8b8;
+    box-sizing: border-box;
+}
+
+.kuang {
+    /* background-color: #fff; */
+    padding: 0 30rpx 0 30rpx;
+}
+
+.kuang .tou {
+    height: 350rpx;
+    /* background-color: aqua; */
+    padding: 35rpx 0rpx;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.kuang .tou image {
+    display: inline-block;
+    /* background-color: blue; */
+    width: 200rpx;
+    height: 280rpx;
+    border-radius: 8rpx;
+    box-shadow: 0 0 5rpx black;
+}
+
+.kuang .tou .you {
+    /* display: inline-block; */
+    /* background-color: brown; */
+    height: 100%;
+    margin-left: 35rpx;
+}
+
+.kuang .tou .you .shang {
+    /* background-color: red; */
+}
+
+.kuang .tou .you .shang h2 {
+    display: block;
+    font-size: 42rpx;
+    font-weight: 600;
+}
+
+.kuang .tou .you .shang .riyu {
+    display: block;
+    font-size: 30rpx;
+    color: #57606f;
+    margin-bottom: 25rpx;
+}
+
+.kuang .tou .you .shang .shijian {
+    display: block;
+    font-size: 22rpx;
+    color: #57606f;
+    
+}
+
+.kuang .tou .you .xia {
+    /* background-color: #fff; */
+    padding: 50rpx 0 0 10rpx;
+    
+    display: flex;
+}
+
+.kuang .tou .you .xia .zuo {
+    background-color: #fff;
+    width: 210rpx;
+    line-height: 70rpx;
+    text-align: center;
+    border-radius: 8rpx;
+    box-shadow: 0 0 5rpx gray;
+}
+.kuang .tou .you .xia .you {
+    background-color: #fff;
+    width: 210rpx;
+    line-height: 70rpx;
+    text-align: center;
+    border-radius: 8rpx;
+    box-shadow: 0 0 5rpx gray;
+}
+.kuang .tou .you .xia text{
+    font-size: 34rpx;
+    
+}
+
+.kuang .tou .you .xia view van-icon{
+    margin-right: 5rpx;
+    width: 40rpx;
+    margin-top: 10rpx;
+    /* float: left; */
+}
+
+.kuang .tou .you .xia .kan {
+    margin-left: 20rpx;
+}
+
+.pingfen {
+    width: 100%;
+    height: 200rpx;
+    background-color: #fff;
+    border-radius: 15rpx;
+    padding: 20rpx 25rpx;
+    box-sizing: border-box;
+}
+
+.pingfen .shang {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pingfen .shang text {
+    font-size: 23rpx;
+    position: relative;
+    display: inline-block;
+    line-height: 10rpx;
+}
+
+.pingfen .shang text .TM {
+    font-size: 16rpx;
+    position: absolute;
+    top: -5rpx;
+    right: -30rpx;
+}
+
+.pingfen .shang {}
+
+.pingfen .xia {
+    /* display: flex; */
+    justify-content: center;
+    margin-top: -20rpx;
+    position: relative;
+}
+
+.pingfen .xia .zuo {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 40%;
+    /* background-color: brown; */
+}
+
+.pingfen .xia .zuo h2 {
+    /* display: inline-block; */
+    font-size: 56rpx;
+    font-weight: 800;
+    /* width: 200rpx; */
+    text-align: center;
+   
+}
+
+.pingfen .xia .zuo van-rate {
+    width: 200rpx;
+    position: absolute;
+    top: 75rpx;
+    left: 0;
+    margin: 0 auto;
+}
+
+.pingfen .xia .you {
+    height: 200rpx;
+    position: relative;
+    /* background-color: aqua; */
+    left: 260rpx;
+    top: -10rpx;
+}
+
+.pingfen .xia .you .tiao {
+    display: flex;
+    position: absolute;
+    
+}
+
+.pingfen .xia .you .tiao .xinxin {
+    width: 80rpx;
+    text-align: right;
+    /* margin-top: -3rpx; */
+}
+
+.pingfen .xia .you .tiao:nth-child(2) {
+    
+    top: 16rpx;
+}
+
+.pingfen .xia .you .tiao:nth-child(3) {
+    top: 32rpx;
+}
+
+.pingfen .xia .you .tiao:nth-child(4) {
+    top: 48rpx;
+}
+
+.pingfen .xia .you .tiao:nth-child(5) {
+    top: 64rpx;
+}
+
+.pingfen .xia .you .tiao van-slider {
+    width: 187rpx;
+    padding: 20rpx 0 0 0;
+    margin-left: 10rpx;
+}
+
+.pingfen .xia .you text {
+    font-size: 18rpx;
+    color: #a5b1c2;
+    display: inline-block;
+    position: absolute;
+    top: 108rpx;
+    right: 366rpx;
+}
+
+.jianjie {
+    margin-top: 30rpx;
+}
+
+.jianjie h2 {
+    font-size: 34rpx;
+    font-weight: 600;
+}
+
+.jianjie text {
+    display: inline-block;
+    font-size: 28rpx;
+    letter-spacing: 1rpx;
+    line-height: 47rpx;
+}
+
+.jianjie .zhankai {
+    font-size: 26rpx;
+    color: #b2bec3;
+    text-align: right;
+}
+
+.jianjie .up {
+    /* height: 230rpx; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.jianjie .down {
+    height: 400rpx;
+    /* display: none; */
+}
+
+.yingrenzhi {
+    font-size: 34rpx;
+    font-weight: 600;
+    display: block;
+}
+
+.yingrenkuang {
+    display: flex;
+}
+
+.yingren {
+    margin-right: 30rpx;
+    margin-top: 20rpx;
+}
+
+.yingren:nth-child(1) {
+    margin-left: 30rpx;
+}
+
+.yingren image {
+    width: 160rpx;
+    height: 220rpx;
+    background-color: aqua;
+    border-radius: 8rpx;
+}
+
+.yingren .name {
+    width: 140rpx;
+    overflow: hidden;
+    font-size: 23rpx;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.yingren .zhi {
+    font-size: 20rpx;
+    display: block;
+    font-weight: 100;
+}
+
+.yugaokuang {
+    display: flex;
+    margin-top: 30rpx;
+    padding: 0 30rpx;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.yugaokuang .you {
+    font-size: 28rpx;
+    color: #636e72;
+}
+
+.tukuang {
+    display: flex;
+}
+.tukuang video{
+    height: 300rpx;
+    width: 300rpx;
+}
+
+.yugao {
+    font-size: 34rpx;
+    font-weight: 600;
+}
+
+.yugao image {
+    background-color: aqua;
+    height: 300rpx;
+    margin-left: 30rpx;
+    width: 300rpx;
+}
+
+.duanping {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30rpx;
+}
+
+.duanping .zuo {
+    font-size: 34rpx;
+    font-weight: 600;
+}
+
+.duanping .you {
+    font-size: 28rpx;
+    color: #636e72;
+}
+
+.duanpingkuang {
+    /* height: 600rpx; */
+    background-color: #fff;
+    margin: 30rpx;
+    border-radius: 10rpx;
+    padding: 30rpx 30rpx 0;
+}
+
+.duanpingkuang .yi {}
+
+.duanpingkuang .yi .shang {
+    display: flex;
+}
+
+.duanpingkuang .yi .shang image {
+    width: 60rpx;
+    height: 60rpx;
+    background-color: aqua;
+    border-radius: 50rpx;
+}
+
+.duanpingkuang .yi .shang .you {
+
+
+    margin-left: 10rpx;
+    margin-top: -15rpx;
+}
+
+.duanpingkuang .yi .shang .you h2 {
+    font-size: 28rpx;
+    font-weight: 600;
+    display: block;
+    margin-top: 15rpx;
+}
+.duanpingkuang .yi .shang .you view {
+    
+    margin-top: -15rpx;
+}
+.duanpingkuang .yi .shang .you text {
+    font-size: 18rpx;
+    margin-left: 10rpx;
+    color: #636e72;
+}
+
+.duanpingkuang .yi .shang .you view.van-rate.rate-index--van-rate{
+    margin-top: -35rpx;
+    margin-left: -5rpx;
+    display: inline-block;
+    height: 20rpx;
+}
+.xia{
+margin-top: -20rpx;
+}
+.xia .wenzi{
+    line-height: 40rpx;
+    font-size: 27rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+.wenzidown{
+    line-height: 40rpx;
+    font-size: 27rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    -webkit-box-orient: vertical;
+}
+.xia .zan{
+    display: flex;
+    margin-top: 20rpx;
+}
+.xia .zan text{
+    font-size: 18rpx;
+    line-height: 45rpx;
+    margin-left: 10rpx;
+}
+.more{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1rpx solid #b2bec3;
+    padding: 10rpx 0;
+}
+.more h2{
+    font-size: 30rpx;
+    font-weight: 600;
+}
+.kuaxihuankuangng{
+    margin-top: 20rpx;
+}
+.xihuankuang .shang{
+    display: flex;
+    justify-content: space-between;
+    padding: 20rpx 20rpx 0;
+}
+.xihuankuang .shang p{
+    font-size: 30rpx;
+    font-weight: 600;
+}
+.xihuankuang .shang .you{
+    font-size: 30rpx;
+    color: #2ed573;
+}
+.xihuankuang .xia{
+    
+}
+.xihuankuang .xia scroll-view{
+    height: 316rpx;
+    display: flex;
+    white-space: nowrap; 
+}
+.xihuankuang .xia scroll-view view{
+    display: inline-block;
+    margin: 20rpx 30rpx 0 0;
+}
+.xihuankuang .xia scroll-view view:nth-child(1){
+    display: inline-block;
+    margin-left: 20rpx;
+}
+.xihuankuang .xia scroll-view view image{
+    width: 155rpx;
+    height: 200rpx;
+    display: block;
+    border-radius: 10rpx;
+    margin: 10rpx 0;
+}
+
+.xihuankuang .xia scroll-view view text{
+    width: 140rpx;
+    display: block;
+    font-size: 24rpx;
+    overflow: hidden;
+    /* 省略号 */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 600;
+}
+.xihuankuang .xia scroll-view view .xin{
+    overflow: hidden;
+    width: 150rpx;
+    height: 50rpx;
+    box-sizing: border-box;
+    margin-top: -10rpx;
+    position: absolute;
+    display: flex;
+    
+}
+.xihuankuang .xia scroll-view view .xin .fen{
+    font-size: 23rpx;
+    margin-left: 18rpx;
+    margin-top: 12rpx;
+    font-weight: 100;
+}
+
+.xihuankuang .xia scroll-view view .van-rate{
+    
+    margin: 0;
+    margin-left: -10rpx;
+    padding: 0;
+    
+}
+.xihuankuang .xia scroll-view view .van-rate .van-rate__item{
+    display: inline-block;
+    width: 0rpx;
+    margin-top: -50rpx;
+    margin-left: -8rpx;
+    padding: 0;
+    height: 50rpx;
+    
+}
+.yingping{
+    margin-top: 30rpx;
+    /* background-color: rgb(252, 162, 162); */
+    
+}
+.yingping h2{
+    font-size: 30rpx;
+    font-weight: 600;
+    margin-left: 20rpx;
+}
+.yingping .tiao{
+    font-size: 23rpx;
+    color: #636e72;
+}
+.yingping .yingpingkuang .shang van-rate{
+    display: inline-block;
+    margin-top: -20rpx;
+    margin-left: 10rpx;
+}
+.yingping .yingpingkuang .shang{
+
+}
+.yingping .yingpingkuang{
+    padding: 20rpx 20rpx;
+    margin-top: 15rpx;
+    background-color: #fff;
+}
+.yingping .yingpingkuang .shang image{
+    width: 60rpx;
+    height: 60rpx;
+    background-color: aqua;
+    border-radius: 50rpx;
+}
+.yingping .yingpingkuang .shang text{
+    font-size: 24rpx;
+    margin-top: -20rpx;
+    margin-left: 10rpx;
+    letter-spacing: 1rpx;
+    font-weight: 100;
+}
+.yingping .yingpingkuang .zhong{
+    letter-spacing: 1rpx;
+}
+.yingping .yingpingkuang .zhong .wen{
+    font-size: 27rpx;
+    /* background-color: #2ed573; */
+    line-height: 40rpx;
+}
+.yingping .yingpingkuang .zhong .biaoti{
+    font-size: 34rpx;
+    line-height: 50rpx;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 10rpx;
+}
+.yingping .yingpingkuang .xia{
+    display: flex;
+    color: #636e72;
+    font-weight: 300;
+    letter-spacing: 1rpx;
+}
+.yingping .yingpingkuang .xia .huifu{
+    font-size: 23rpx;
+}
+.yingping .yingpingkuang .xia .youyong{
+    font-size: 23rpx;
+    margin-left: 10rpx;
+}
+.yingping .yingpingkuang .xia .zhuanfa{
+    font-size: 23rpx;
+    margin-left: 10rpx; 
+}
+.yingping .yingpingkuang .xia .dian{
+    font-size: 23rpx;
+    margin-left: 10rpx;
+    margin-top: 28rpx;
+}

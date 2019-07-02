@@ -1,0 +1,97 @@
+.weui-search-bar{
+    
+    background-color: #2ed573;
+    border-top: none;
+}
+.sousuok input{
+    background-color: #fff;
+    width: 96%;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30rpx;
+    border-radius: 10rpx;
+}
+.kuang{
+    margin-top: 20rpx;
+}
+.kuang .shang{
+    display: flex;
+    justify-content: space-between;
+    padding: 20rpx 20rpx 0;
+}
+.kuang .shang p{
+    font-size: 30rpx;
+    font-weight: 600;
+}
+.kuang .shang .you{
+    font-size: 30rpx;
+    color: #2ed573;
+}
+.xia{
+    
+}
+.xia scroll-view{
+    height: 316rpx;
+    display: flex;
+    white-space: nowrap; 
+}
+.xia scroll-view view{
+    display: inline-block;
+    margin: 20rpx 30rpx 0 0;
+}
+.xia scroll-view view:nth-child(1){
+    display: inline-block;
+    margin-left: 20rpx;
+}
+.xia scroll-view view image{
+    width: 155rpx;
+    height: 200rpx;
+    display: block;
+    border-radius: 10rpx;
+    margin: 10rpx 0;
+}
+
+.xia scroll-view view text{
+    width: 140rpx;
+    display: block;
+    font-size: 24rpx;
+    overflow: hidden;
+    /* 省略号 */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 600;
+}
+.xia scroll-view view .xin{
+    overflow: hidden;
+    width: 150rpx;
+    height: 50rpx;
+    box-sizing: border-box;
+    margin-top: -10rpx;
+    position: absolute;
+    display: flex;
+    
+}
+.xia scroll-view view .xin .fen{
+    font-size: 23rpx;
+    margin-left: 18rpx;
+    margin-top: 12rpx;
+    font-weight: 100;
+}
+
+.xia scroll-view view .van-rate{
+    
+    margin: 0;
+    margin-left: -10rpx;
+    padding: 0;
+    
+}
+.xia scroll-view view .van-rate .van-rate__item{
+    display: inline-block;
+    width: 0rpx;
+    margin-top: -50rpx;
+    margin-left: -8rpx;
+    padding: 0;
+    height: 50rpx;
+    
+}

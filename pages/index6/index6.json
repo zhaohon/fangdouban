@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-rate": "../../dist/rate/index",
+    "van-icon": "../../dist/icon/index"
+  },
+  "navigationBarTitleText":"豆瓣 Top250",
+  "navigationBarBackgroundColor": "##ffffff"
+}

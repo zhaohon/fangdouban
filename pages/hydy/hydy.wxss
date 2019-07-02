@@ -1,0 +1,334 @@
+/* pages/hydy/hydy.wxss */
+.mengban{
+    position: relative;
+    top: 0;
+}
+.mengban .beijing{
+    width: 100%;
+    height: 1100rpx;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* opacity: 0.8; */
+    /* background-color: black; */
+
+}
+.mengban .hei{
+    width: 100%;
+    height: 1100rpx;
+    opacity: 0.5;
+    background-color: rgb(44, 44, 44);
+}
+.mengban .bu{
+    width: 100%;
+    height: 1100rpx;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.kuang{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 60rpx 30rpx 0;
+    box-sizing: border-box;
+    margin-top: -20rpx;
+}
+.kuang .zuo{
+    font-size: 24rpx;
+    flex: 1;
+    letter-spacing:2rpx;
+    position: relative;
+}
+.kuang .zuo .kanguo{
+    
+    
+}
+.kuang .zuo .gong{
+    color: #7f8c8d;
+}
+.kuang .zuo .tiao{
+    height: 8rpx;
+    width: 108rpx;
+    background-color: #dfe4ea;
+    border-radius: 30rpx;
+    position: absolute;
+    top: 1;
+    left: 0;
+}
+.kuang button{
+    font-size: 23rpx;
+    width: 215;
+    height: 50rpx;
+    line-height: 50rpx;
+    background-color: #ffa502;
+    border-radius: 50rpx;
+    letter-spacing:2rpx;
+    font-weight: 100;
+    border: 0;
+    box-shadow: 0 0 5rpx gray;
+}
+.mengban .bu .zhong{
+    color: white;
+    text-align: center;
+    margin-top: 200rpx;
+}
+.mengban .bu .zhong h2{
+    font-size: 50rpx;
+    display: block;
+    letter-spacing:2rpx;
+}
+.mengban .bu .zhong h4{
+    font-size: 28rpx;
+    letter-spacing:15rpx;
+}
+.mengban .con{
+
+    color: white;
+    box-sizing: border-box;
+    margin: 0 30rpx;
+    margin-top: 200rpx;
+    display: flex;
+}
+.mengban .con image{
+    background-color: #ffa502;
+    width: 200rpx;
+    height: 300rpx;
+    border-radius: 8rpx;
+}
+.mengban .con .you h2{
+    font-size: 35rpx;
+    letter-spacing:3rpx;
+    margin-left: 20rpx;
+    
+}
+.pingfen {
+    width: 100%;
+    height: 200rpx;
+    /* background-color: #fff; */
+    border-radius: 15rpx;
+    padding: 20rpx 25rpx;
+    box-sizing: border-box;
+}
+
+.pingfen .shang {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pingfen .shang .zuo {
+    font-size: 23rpx;
+    position: relative;
+    display: inline-block;
+    line-height: 10rpx;
+    float: left;
+}
+
+.pingfen .shang text .TM {
+    font-size: 16rpx;
+    position: absolute;
+    top: -5rpx;
+    right: -30rpx;
+}
+
+.pingfen .shang {
+    width: 427rpx;
+    margin-bottom: 40rpx;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.pingfen .shang .you{
+    width: 150rpx;
+    height: 60rpx;
+    background-color: rgba(444,444,444, 0.1);
+    float: right;
+    line-height: 60rpx;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: -20rpx;
+    border-radius: 8rpx;
+}
+.pingfen .shang .you van-icon{
+   margin-top: 8rpx;
+}
+.pingfen .shang .you text{
+   font-size: 30rpx;
+   margin-left: 5rpx;
+
+}
+
+.pingfen .xia {
+    /* display: flex; */
+    justify-content: center;
+    margin-top: -20rpx;
+    position: relative;
+}
+
+.pingfen .xia .zuo {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 40%;
+    /* background-color: brown; */
+}
+
+.pingfen .xia .zuo h2 {
+    /* display: inline-block; */
+    font-size: 56rpx;
+    font-weight: 800;
+    /* width: 200rpx; */
+    text-align: center;
+   
+}
+
+.pingfen .xia .zuo van-rate {
+    width: 200rpx;
+    position: absolute;
+    top: 75rpx;
+    left: 0;
+    margin: 0 auto;
+}
+
+.pingfen .xia .you {
+    height: 200rpx;
+    position: relative;
+    /* background-color: aqua; */
+    left: 150rpx;
+    top: -10rpx;
+}
+
+.pingfen .xia .you .tiao {
+    display: flex;
+    position: absolute;
+    
+}
+
+.pingfen .xia .you .tiao .xinxin {
+    width: 80rpx;
+    text-align: right;
+    /* margin-top: -3rpx; */
+}
+
+.pingfen .xia .you .tiao:nth-child(2) {
+    
+    top: 16rpx;
+}
+
+.pingfen .xia .you .tiao:nth-child(3) {
+    top: 32rpx;
+}
+
+.pingfen .xia .you .tiao:nth-child(4) {
+    top: 48rpx;
+}
+
+.pingfen .xia .you .tiao:nth-child(5) {
+    top: 64rpx;
+}
+
+.pingfen .xia .you .tiao van-slider {
+    width: 187rpx;
+    padding: 20rpx 0 0 0;
+    margin-left: 10rpx;
+}
+
+.pingfen .xia .you text {
+    font-size: 18rpx;
+    color: rgba(444,444,444, 0.5);
+    display: inline-block;
+    width: 200rpx;
+    position: absolute;
+    top: 108rpx;
+    right:95rpx;
+}
+.mengban .xia{
+    font-size: 24rpx;
+    margin: 30rpx;
+    color: silver;
+    line-height: 40rpx;
+    letter-spacing:3rpx 
+    
+}
+.list{
+    
+}
+.list .item{
+    width: 29%;
+    float: left;
+    margin-left: 3%;
+}
+.list .item .shang{
+    /* background-color: aqua;  */
+    position: relative;
+    display: flex;
+
+}
+.list .item .shang h2{
+    /* position: absolute; */
+    color: silver;
+}
+.list .item .shang .xiexian{
+    /* position: relative; */
+    /* top: 30rpx;
+    left: 8rpx; */
+    margin-top: 30rpx;
+    margin-left: -15rpx;
+
+}
+.list .item .shang .xiexian .x1{
+    width: 0rpx;
+    height: 0rpx;
+    /* background-color: #fff; */
+    border:5px solid transparent;
+    border-right:5px solid black;
+    border-bottom:5px solid black;
+    position: absolute;
+}
+.list .item .shang .xiexian .x2{
+    width: 0rpx;
+    height: 0rpx;
+    /* background-color: red; */
+    border:5px solid transparent;
+    border-right:5px solid white;
+    border-bottom:5px solid white;
+    position: absolute;
+    /* top: 1rpx;
+    left: 0rpx; */
+}
+.list .item image{
+    width: 100%;
+    height: 300rpx;
+    background-color: #7f8c8d;
+}
+.list .item .name{
+    display: block;
+    font-size: 25rpx;
+}
+.list .item van-rate{
+    display: inline-block;
+}
+.list .item .fen{
+    font-size: 20rpx;
+    margin-left: 5rpx;
+}
+.list .item .xia{
+    margin-top: -20rpx;
+}
+.list .item .kanguo{
+    border-top: 1px dashed silver;
+    border-bottom: 1px dashed silver;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    height: 64rpx;
+    color: #ffa502;
+    margin: 30rpx 0;
+}
+.list .item .kanguo van-icon{
+}
+.list .item .kanguo text{
+    font-size: 28rpx;
+    line-height: 64rpx;
+    display: inline-block;
+    margin-left: 10rpx;
+}

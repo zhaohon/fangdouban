@@ -1,0 +1,40 @@
+.kuang{
+    padding: 10rpx 20rpx;
+}
+.kuang .wen{
+    border: 1px solid rgb(180, 178, 178);
+    font-size: 30rpx;
+    padding: 20rpx;
+    border-radius: 8rpx;
+    width: 100%;
+    box-sizing: border-box;
+}
+.kuang .van-button{
+    width: 100%;
+    margin-top: 40rpx;
+}
+.kuang .shang{
+    text-align: center;
+}
+.kuang .shang view{
+    text-align: center;
+    font-size: 28rpx;
+    color: gray;
+    font-weight: 200;
+}
+van-rate{
+    margin: 0 auto;
+    /* background-color: gray; */
+    display: inline-block;
+
+}
+.xin{
+    text-align: center;
+    margin-bottom: 10rpx;
+}
+view.van-rate__item.rate-index--van-rate__item{
+    
+}
+.xingxing{
+   background-color: #fff;
+}

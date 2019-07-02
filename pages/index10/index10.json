@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-button": "../../dist/button/index",
+    "van-rate": "../../dist/rate/index"
+  },
+  "navigationBarTitleText":"看过",
+  "navigationBarBackgroundColor": "##ffffff"
+}

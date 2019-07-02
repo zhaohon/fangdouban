@@ -1,0 +1,33 @@
+<view class="kuang">
+
+    <view class="tou">
+        <image src="{{list.images.large}}" />
+        <view class="you">
+            <view class="shang">
+                <h2>{{list.title}}</h2>
+                <text class="riyu">{{list.original_title}}</text>
+                <text class="shijian">{{list.genres}} / 片长{{list.durations}}</text>
+            </view>
+            <view class="xia">
+                <text>想看</text>
+                <text class="kan">看过</text>
+            </view>
+        </view>
+        
+    </view>
+    <!-- <view class="tou">
+        <image src="" />
+        <view class="you">
+            <view class="shang">
+                <h2>千与千寻</h2>
+                <text class="riyu">日本名字</text>
+                <text class="shijian">{{list.genres}}/日本/片长{{list.durations}}</text>
+            </view>
+            <view class="xia">
+                <text>想看</text>
+                <text class="kan">看过</text>
+            </view>
+        </view>
+        
+    </view> -->
+</view>

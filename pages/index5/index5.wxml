@@ -1,0 +1,64 @@
+<view class="shang">
+    <image src="../../image/bj.png" />
+    <button>登陆</button>
+</view>
+<view class="xia">
+    <view class="tou">
+        <text class="wode">我的书影音</text>
+        <view class="denglu">
+            <text class="denglukan">登陆查看</text>
+            <image class="jian" mode="widthFix" src="../../image/jian.png" />
+        </view>
+    </view>
+    <view class="con">
+        <image src="../../image/shi.png" />
+        <view class="item" style="border:none">
+            <view class="zuo">
+                <view class="zuoshang">观影分析</view>
+                <view class="zuoxia">
+                    0
+                    <text class="kan">看过</text>
+                </view>
+            </view>
+            <view class="you">
+                <text class="youzuo">标记10部影片开启观影分析</text>
+                <button>立即开启</button>
+                <image mode="widthFix" src="../../image/jian.png" />
+            </view>
+        </view>
+    </view>
+     <view class="con">
+        <image src="../../image/shi.png" />
+        <view class="item">
+            <view class="zuo">
+                <view class="zuoshang">观影分析</view>
+                <view class="zuoxia">
+                    0
+                    <text class="kan">看过</text>
+                </view>
+            </view>
+            <view class="you">
+                <text class="youzuo">标记10部影片开启观影分析</text>
+                <button>立即开启</button>
+                <image mode="widthFix" src="../../image/jian.png" />
+            </view>
+        </view>
+    </view>
+     <view class="con">
+        <image src="../../image/shi.png" />
+        <view class="item">
+            <view class="zuo">
+                <view class="zuoshang">观影分析</view>
+                <view class="zuoxia">
+                    0
+                    <text class="kan">看过</text>
+                </view>
+            </view>
+            <view class="you">
+                <text class="youzuo">标记10部影片开启观影分析</text>
+                <button>立即开启</button>
+                <image mode="widthFix" src="../../image/jian.png" />
+            </view>
+        </view>
+    </view>
+</view>

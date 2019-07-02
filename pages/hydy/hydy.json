@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-icon": "../../dist/icon/index",
+    "van-rate": "../../dist/rate/index",
+    "van-slider": "../..//dist/slider/index"
+  },
+  "navigationBarTitleText":"评分最高华语电影",
+  "navigationBarBackgroundColor": "##ffffff"
+}

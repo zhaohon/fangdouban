@@ -1,0 +1,110 @@
+<view class="sousuok">
+    <view class="page__bd">
+        <view class="weui-search-bar">
+            <view class="weui-search-bar__form">
+                <view class="weui-search-bar__box">
+                    <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+                    <input type="text" class="weui-search-bar__input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+                    <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+                        <icon type="clear" size="14"></icon>
+                    </view>
+                </view>
+                <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
+                    <icon class="weui-icon-search" type="search" size="14"></icon>
+                    <view class="weui-search-bar__text">搜索</view>
+                </label>
+            </view>
+            <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">
+                取消
+            </view>
+        </view>
+        <view class="weui-cells searchbar-result" wx:if="{{inputVal.length > 0}}">
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本</view>
+                </view>
+            </navigator>
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本</view>
+                </view>
+            </navigator>
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本</view>
+                </view>
+            </navigator>
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本</view>
+                </view>
+            </navigator>
+        </view>
+    </view>
+</view>
+<view class="kuang">
+    <view class="shang">
+        <p>影院热映</p>
+        <navigator class="you" url="../index2/index2?url=https://douban.uieee.com/v2/movie/in_theaters">
+            查看更多>
+        </navigator>
+    </view>
+    <view class="xia">
+        <scroll-view scroll-x="true">
+            <view wx:for="{{list}}" wx:key="{{index}}">
+                <navigator url="../index8/index8?url=https://douban.uieee.com/v2/movie/top250&id={{item.id}}&index={{index}}">
+                    <image src="{{item.images.medium}}"></image>
+                    <text>{{item.title}}</text>
+                    <view class="xin">
+                        <van-rate size="8" readonly value="{{ item.rating.average/1.5 }}" bind:change="onChange" />
+                        <text class="fen">{{item.rating.average}}</text>
+                    </view>
+                </navigator>
+            </view>
+        </scroll-view>
+    </view>
+</view>
+<view class="kuang">
+    <view class="shang">
+        <p>豆瓣热门</p>
+        <navigator class="you" url="../index2/index2?url=https://douban.uieee.com/v2/movie/top250">
+            查看更多>
+        </navigator>
+    </view>
+    <view class="xia">
+        <scroll-view scroll-x="true">
+            <view wx:for="{{listr}}" wx:key="{{index}}">
+                <navigator url="../index8/index8?url=https://douban.uieee.com/v2/movie/top250&id={{item.id}}&index={{index}}">
+                    <image src="{{item.images.medium}}"></image>
+                    <text>{{item.title}}</text>
+                    <view class="xin">
+                        <van-rate size="8" readonly value="{{ item.rating.average/1.5 }}" bind:change="onChange" />
+                        <text class="fen">{{item.rating.average}}</text>
+                    </view>
+                </navigator>
+            </view>
+        </scroll-view>
+    </view>
+</view>
+<view class="kuang">
+    <view class="shang">
+        <p>即将上映</p>
+        <navigator class="you" url="../index2/index2?url=https://douban.uieee.com/v2/movie/coming_soon">
+            查看更多>
+        </navigator>
+    </view>
+    <view class="xia">
+        <scroll-view scroll-x="true">
+            <view wx:for="{{listj}}" wx:key="{{index}}">
+               <navigator url="../index8/index8?url=https://douban.uieee.com/v2/movie/top250&id={{item.id}}&index={{index}}">
+                    <image src="{{item.images.medium}}"></image>
+                    <text>{{item.title}}</text>
+                   <view class="xin">
+                        <van-rate size="8" readonly value="{{ item.rating.average/1.5 }}" bind:change="onChange" />
+                        <text class="fen">{{item.rating.average}}</text>
+                    </view>
+                </navigator>
+            </view>
+        </scroll-view>
+    </view>
+</view>

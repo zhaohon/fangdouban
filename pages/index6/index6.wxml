@@ -1,0 +1,39 @@
+<image src="../../image/listMoretop250.jpg" mode="aspectFill" />
+<view class="kuang">
+    <view class="zuo">
+        <text class="kanguo">看过0部</text>
+        /
+        <text class="gong">共250部</text>
+        <view class="tiao"></view>
+    </view>
+    <button>登陆查看成就</button>
+</view>
+
+    <block wx:for="{{listr}}" wx:key="{{index}}">
+        <navigator url="../index8/index8?url=https://douban.uieee.com/v2/movie/top250&index={{index}}&id={{item.id}}">
+        <!-- <view class="item" bindtap="qwe" data-newsid="{{item.id}}"> -->
+            <view class="item">
+            <button>No.{{index+1}}</button>
+            <view class="con">
+                <view class="zuo">
+                    <image src="{{item.images.medium}}" />
+                    <view class="zhong">
+                        <h2>{{item.title}}</h2>
+                        <view class="xin">
+                            <van-rate size="10" readonly value="{{ item.rating.average/1.5 }}" bind:change="onChange" />
+                            <text class="fen">{{item.rating.average}}</text>
+                        </view>
+                        <text>
+                            {{item.genres}}  / {{item.casts[0].name}} / {{item.casts[1].name}} / {{item.casts[2].name}} / {{item.casts[3].name}}
+                        </text>
+                    </view>
+                </view>
+                <view class="you">
+                    <van-icon name="star-o" color="#ff793f" size="15px" />
+                    <text>看过</text>
+                </view>
+            </view>
+            <input type="text" placeholder="{{item.title}}" />
+        </view>
+        </navigator>
+    </block>

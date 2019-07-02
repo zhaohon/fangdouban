@@ -1,0 +1,41 @@
+/* pages/2018/2018.wxss */
+.tu{
+    width: 100%;
+    height: 1150rpx;
+    box-sizing: border-box;
+}
+.tu image{
+    width: 100%;
+    height: 100%;
+}
+.kuang{
+    
+}
+.kuang h2{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20rpx;
+    margin-top: 30rpx;
+}
+.kuang .item{
+    text-align: center;
+    
+}
+.kuang .item .itemlist{
+    display: inline-block;
+    margin-left: 20rpx;
+    margin-top: 20rpx;
+}
+.kuang .item .itemlist image{
+    width: 300rpx;
+    height: 200rpx;
+    display: block;
+}
+.kuang .item .itemlist text{
+    font-size: 23rpx;
+    color: rgb(80, 80, 80);
+    display: block;
+    text-align: left;
+    letter-spacing:3rpx;
+}

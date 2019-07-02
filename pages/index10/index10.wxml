@@ -1,0 +1,9 @@
+<view class="kuang">
+    <view class="shang">
+        <view>点击星星评分</view>
+       
+    </view>
+    <view class="xin" ><van-rate value="{{ value }}" bind:change="onChange" size="30"  color="red" icon-class="xingxing" /></view>
+    <textarea class="wen" placeholder="写几句评价吧..."></textarea>
+    <van-button type="primary">确定</van-button>
+</view>

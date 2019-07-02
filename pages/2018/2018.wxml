@@ -1,0 +1,28 @@
+<view class="tu">
+    <image src="../../image/2018.jpg" mode="scaleToFill" />
+</view>
+<view class="kuang">
+    <h2>2018分类榜单</h2>
+    <view class="item">
+        
+        <view class="itemlist">
+            <navigator url="../hydy/hydy">
+            <image src="../../image/hydy.png" mode="scaleToFill" />
+            <text >看过0部/共10部</text>
+            </navigator>
+        </view>
+         
+        <view class="itemlist">
+            <image src="../../image/hydy.png" />
+            <text >看过0部/共10部</text>
+        </view>
+        <view class="itemlist">
+            <image src="../../image/hydy.png" />
+            <text >看过0部/共10部</text>
+        </view>
+        <view class="itemlist">
+            <image src="../../image/hydy.png" />
+            <text >看过0部/共10部</text>
+        </view>
+    </view>
+</view>

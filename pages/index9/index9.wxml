@@ -1,0 +1,7 @@
+<view class="kuang">
+    <textarea class="wen" placeholder="记录一下想看的理由">
+
+</textarea>
+
+<van-button type="primary">确定</van-button>
+</view>

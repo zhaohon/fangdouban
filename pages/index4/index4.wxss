@@ -1,0 +1,50 @@
+/* pages/index4/index4.wxss */
+.kuang{
+    padding: 0 25rpx;
+}
+.shang{
+    /* background-color: aqua; */
+}
+.shang .s1{
+    width: 100%;
+    margin-top: 15rpx;
+    /* height: 200px; */
+}
+.shang .s1 image{
+    width: 100%;
+    border-radius: 8rpx;
+    
+}
+.xia{
+    display: flex;
+    margin-top: 20rpx;
+}
+.xia image{
+    background-color: aqua;
+    width: 180rpx;
+    height: 180rpx;
+}
+.xia .you{
+    /* background-color: blue; */
+    width: 550rpx;
+    height: 160rpx;
+    padding: 15rpx 0 15rpx 50rpx;
+    box-sizing: border-box;
+    box-shadow: 0 0 5rpx gray;
+    border-bottom-right-radius: 8rpx;
+    border-top-right-radius: 8rpx;
+    margin-top: 10rpx;
+}
+.xia .you view{
+    font-size: 24rpx;
+    line-height: 42rpx;
+    letter-spacing:2rpx;
+
+}
+.xia .you view view{
+    display: inline-block;
+}
+.xia .you view text{
+    color: #f9ca24;
+    margin-left: 15rpx;
+}
