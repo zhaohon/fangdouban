@@ -7,6 +7,7 @@
     <button>登陆查看成就</button>
 </view>
 <block wx:for="{{listr}}" wx:key="{{index}}}">
+     <navigator url="../index8/index8?url=https://douban.uieee.com/v2/movie/top250&index={{index}}&id={{item.subject.id}}">
     <view class="item">
         <button>No.{{index+1}}</button>
         <view class="con">
@@ -28,4 +29,9 @@
         </view>
         <input type="text" placeholder="{{item.subject.title}}"/>
     </view>
+         </navigator>
 </block>
+
+                       
+               
+    

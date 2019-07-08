@@ -25,7 +25,7 @@
             </view>
         </view>
     </navigator>
-    <navigator url="../index61/index61?url=https://douban.uieee.com/v2/movie/us_box?apikey=0df993c66c0c636e29ecbb5344252a4a">
+    <navigator url="../index6/index6?url=https://douban.uieee.com/v2/movie/new_movies?apikey=0df993c66c0c636e29ecbb5344252a4a">
         <view class="xia">
             <image src="../../image/22.jpg" />
             <view class="you">
@@ -47,7 +47,7 @@
             </view>
         </view>
     </navigator>
-    <navigator url="../index6/index6?url=https://douban.uieee.com/v2/movie/new_movies?apikey=0df993c66c0c636e29ecbb5344252a4a">
+    <navigator url="../index6/index6?url=https://douban.uieee.com/v2/movie/weekly?apikey=0df993c66c0c636e29ecbb5344252a4a">
         <view class="xia">
             <image src="../../image/33.jpg" />
             <view class="you">

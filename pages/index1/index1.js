@@ -101,7 +101,17 @@ inputTyping: function (e) {
       }
     })
   },
-  
+  weizhi(){
+    wx.chooseLocation({
+      type: 'wgs84',
+      success (res) {
+        const latitude = res.latitude
+        const longitude = res.longitude
+        const speed = res.speed
+        const accuracy = res.accuracy
+      }
+     })
+  },
 
   /**
    * 生命周期函数--监听页面加载
@@ -110,6 +120,8 @@ inputTyping: function (e) {
     this.getList()
     this.getListr()
     this.getListj()
+    // this.weizhi()
+    
   },
 
   /**

@@ -16,7 +16,9 @@
             <h4>豆瓣2018年度电影榜单</h4>
         </view>
         <view class="con">
-            <image src="{{list[0].images.small}}" />
+            <navigator url="../index8/index8?url=https://douban.uieee.com/v2/movie/top250&id={{list[0].id}}">
+                <image src="{{list[0].images.small}}" />
+            </navigator>
             <view class="you">
                 <h2>{{list[0].title}}</h2>
                 <view class="pingfen">
@@ -98,9 +100,8 @@
     </view>
 </view>
 <view class="list">
-    
-        <block wx:for="{{list}}" wx:key="index">
-            <navigator url="../index8/index8?url=https://douban.uieee.com/v2/movie/top250&id={{item.id}}">
+    <block wx:for="{{list}}" wx:key="index">
+        <navigator url="../index8/index8?url=https://douban.uieee.com/v2/movie/top250&id={{item.id}}">
             <view wx:if="{{index==0}}"></view>
             <view wx:else class="item">
                 <view class="shang">
@@ -121,7 +122,6 @@
                     <text>看过</text>
                 </view>
             </view>
-                </navigator>
-        </block>
-
+        </navigator>
+    </block>
 </view>

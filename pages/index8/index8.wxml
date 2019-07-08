@@ -145,24 +145,24 @@
             <van-icon name="arrow" size="10px" />
         </view>
     </view>
-    <view class="yi">
+    <view class="yi" wx:for="{{duanping}}">
         <view class="shang">
-            <image src="" />
+            <image src="{{item.author.avatar}}" />
             <view class="you">
-                <h2>犀牛</h2>
+                <h2>{{item.author.name}}</h2>
                 <view>
                     <van-rate size="10" readonly value="{{ 5 }}" bind:change="onChange" />
-                    <text>2005年10月28日</text>
+                    <text>{{item.created_at}}</text>
                 </view>
             </view>
         </view>
         <view class="xia">
             <text class="{{plHidden?'wenzi':'wenzidown'}}" bindtap="plToggle">
-                当年的奥斯卡颁奖礼上，被如日中天的《阿甘正传》掩盖了它的光彩，而随着时间的推移，这部电影在越来越多的人们心中的地位已超越了《阿甘》。每当现实令我疲惫得产生无力感，翻出这张碟，就重获力量。毫无疑问，本片位列男人必看的电影前三名！回顾那一段经典台词：“有的人的羽翼是如此光辉，即使世界上最黑暗的牢狱，也无法长久地将他围困！”
-            </text>
+               {{item.content}}
+               </text>
             <view class="zan">
                 <van-icon name="thumb-circle-o" />
-                <text>12622</text>
+                <text>{{item.useful_count}}</text>
             </view>
         </view>
     </view>

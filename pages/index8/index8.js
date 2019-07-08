@@ -9,6 +9,7 @@ Page({
     listmore: [],
     jz: [],
     mp4:[],
+    duanping:[],
     yingping:[],
     id :[],
     avatars:[],
@@ -90,7 +91,8 @@ Page({
             jz: res.data.photos,
             mp4:res.data,
             yingping:res.data.popular_reviews,
-            avatars : res.data.casts
+            avatars : res.data.casts,
+            duanping:res.data.popular_comments
             // avatars : res.data.subjects[index].casts
           })
         }
